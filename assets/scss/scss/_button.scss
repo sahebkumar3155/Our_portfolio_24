@@ -1,0 +1,48 @@
+.px-btn {
+	padding: 8px 20px;
+	border: 2px solid transparent;
+	font-size: 14px;
+	line-height: 1.5;
+	text-decoration: none;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	transition: ease all 0.35s;
+	display: inline-block;
+
+	&.px-btn-theme {
+		background: $px-theme;
+		border-color: $px-theme;
+		color: $px-white;
+		box-shadow: 6px 6px 0 -1px $px-dark;
+		&:hover {
+			background: $px-dark;
+			border-color: $px-dark;
+			box-shadow: 5px 5px 0 -2px $px-theme;
+		}
+	}
+	&.px-btn-theme2 {
+		background: $px-theme2;
+		border-color: $px-theme2;
+		color: $px-dark;
+		box-shadow: 5px 5px 0 -2px $px-theme;
+		&:hover {
+			background: $px-theme;
+			border-color: $px-theme;
+			color: $px-white;
+			box-shadow: 5px 5px 0 -2px $px-theme2;
+		}
+	}
+	&.px-btn-dark {
+		background: $px-dark;
+		border-color: $px-dark;
+		color: $px-white;
+		box-shadow: 5px 5px 0 -2px $px-theme;
+		&:hover {
+			background: $px-theme;
+			border-color: $px-theme;
+			color: $px-white;
+			box-shadow: 5px 5px 0 -2px $px-dark;
+		}
+	}
+}
